@@ -1,0 +1,179 @@
+ .übersicht{
+	  width: 320px;
+  height: 275px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  background-color: #E0FFFF;
+  font-size: 100px;
+  font-weight: bold;
+  font-style: italic;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0, 0, 10, 5);
+   transition-duration: 0.5s;
+	  
+	  
+  }
+  
+  
+  
+  .level {
+  
+
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  background-color: #E0FFFF;
+  font-size: 100px;
+  font-weight: bold;
+  font-style: italic;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0, 0, 10, 5);
+   transition-duration: 0.5s;
+  }
+  
+
+button:hover {
+ 
+ box-shadow: 2px 2px 6px rgba(0, 0, 30, 10);
+  background-color: #66ccff;
+}
+
+
+
+	  h1 {
+	  font-size: 65px;
+    font-family: arial, sans-serif;
+	  }
+	  
+	  
+
+
+.banner { 
+width: calc(25% - 15px);
+float: right; 
+margin-left: 15px; /* Abstand zum Textinhalt links */
+        background-color: #d9d9d9; /* Hintergrundfarbe des Banners */
+        padding: 20px; /* Abstand zwischen Bannerinhalt und Rand */
+
+}
+
+.hauptttext {
+width: calc(75% - 15px);
+float: left; 
+margin-left: 15px; /* Abstand zum Textinhalt links */
+        background-color: #00FFFF; /* Hintergrundfarbe des Banners */
+        padding: 20px; /* Abstand zwischen Bannerinhalt und Rand */
+		
+}
+
+
+.outro {
+	
+	text-align: center;
+	
+	background-color: #f2f2f2; /* Hintergrundfarbe des Banners */
+	
+}
+
+
+
+/* Ab hier Code für Landeseite */
+
+  
+  .auswahltaste1 {
+  
+
+  width: 340px;
+  height: 200px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40px;
+  background-color: #E0FFFF;
+  font-size: 200%;
+  color: #4d4d4d;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0, 0, 10, 5);
+  transition-duration: 0.5s;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  }
+  
+  
+  
+    .auswahltaste2 {
+  
+
+  width: 340px;
+  height: 200px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40px;
+  background-color: #E0FFFF;
+  font-size: 200%;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+  color: #4d4d4d;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0, 0, 10, 5);
+   transition-duration: 0.5s;
+   margin-left: 5%;
+   margin-top: 5%;
+   margin-bottom: 10%;
+  }
+  
+
+  
+  
+  .knöpfe  {	  
+	  background-color: #d9d9d9;
+	  text-align: center;
+  }
+  
+ .titel {
+   color: #4d4d4d;
+	 font-weight: 700;
+   font-size: 60px;
+   font-family: arial, sans-serif;
+   margin-left: 20%;
+   margin-right: 20%;
+   
+ }
+  
+  
+  
+  
+  .knöpfe  {
+	  text-align: center;
+    background-color: #bfbfbf;
+  }
+
+ 
+ 
+ /* Theorieseite */
+ .box {
+	background: #d1d1e0;
+	border-style: hidden;
+	text-align: center;
+	border-radius: 8px;
+	padding: 10px;
+ }
+ 
+ 
+ .titelbox{
+	 background: #a3a3c2;
+	border-style: hidden;
+	text-align: center;
+	border-radius: 8px;
+	padding: 10px;
+ }
+ body{
+  background-color: #bfbfbf;
+ }
+ 
+ .table
+ {
+	 background-color: white;	 
+ }

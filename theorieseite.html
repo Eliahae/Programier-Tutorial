@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title  >Webseiten Landeseite</title>
+<!-- Link zum Java script -->
+<script type="text/javascript" src="korrektursystem.js"></script>
+<!-- Link zum Stylesheet -->
+<link rel="stylesheet" type="text/css" href="theorieseite.css">
+</head>
+
+<body class="thorieseite">
+<h1> Was ist HTML und wie nutze ich es </h1>
+<p> 
+<div class="titelbox">
+Was ist html
+</div>
+<div class="box">
+texttexttexttexttexttexttexttexttexttexttext
+texttexttexttexttexttexttexttext
+texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext
+</br>
+
+text
+text
+texttexttexttexttexttexttexttexttext
+text
+</div>
+
+</p>
+<textarea id= "codeBox1" readonly style=" font-family: 'Courier New', Courier, monospace; background-color: #f8f8f8;">
+// Hier kommt der Code
+</textarea>
+
+<button onclick="copyCode('codeBox1')">Code kopieren</button>
+
+
+
+<script>
+
+function copyCode(elementId) {
+
+  const codeBox = document.getElementById(elementId);
+  codeBox.select();
+
+  
+  document.execCommand('copy');
+
+  
+  alert("Code wurde in die Zwischenablage kopiert!");
+}
+</script>
+
+<table >
+  <tr>
+    <td  >Knopf</td>
+    <td  > &lt;button onclick="copyCode('codeBox1')"&gt;Code kopieren&lt;/button&gt;</td>
+    <td  >mit einem Button lassen sich Funktionen die man in javascript schreibt ausführenausführen</td>
+  </tr>
+  <tr>
+    <td  >Zelle 4</td>
+    <td  >Zelle 5</td>
+    <td  >Zelle 6</td>
+  </tr>
+  <tr>
+    <td  >Zelle 7</td>
+    <td  >Zelle 8</td>
+    <td  >Zelle 9</td>
+  </tr>
+</table>
+
+
+</body>
+</html>

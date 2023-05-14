@@ -1,0 +1,58 @@
+button:hover {
+ 
+ box-shadow: 2px 2px 6px rgba(0, 0, 30, 10);
+  background-color: #66ccff;
+}
+
+
+
+	  h1 {
+	  font-size: 65px;
+    font-family: arial, sans-serif;
+	  }
+
+	   .titel {
+   color: #4d4d4d;
+	 font-weight: 700;
+   font-size: 60px;
+   font-family: impact, sans-serif;
+  
+   
+ }
+   body{
+  background-color: #bfbfbf;
+ }
+	  
+.level {
+  
+text-align: center;
+  width: 200px;
+  height: 200px ;
+  
+  
+  float: middle;
+  border-radius: 300px;
+  background-color: #E0FFFF;
+  font-size: 20px;
+  color: #4d4d4d;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0, 0, 10, 5);
+  transition-duration: 0.5s;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  
+  
+  }
+  
+  h4{
+	   color: #4d4d4d;
+	 font-weight: 700;
+   font-size: 40px;
+   font-family: impact, sans-serif;
+	  
+	  
+  }
