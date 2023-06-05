@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title  >Theorieseite 5</title>
+<!-- Link zum Java script -->
+<script type="text/javascript" src="korrektursystem.js"></script>
+<!-- Link zum Stylesheet -->
+<link rel="stylesheet" type="text/css" href="theorieseite.css">
+</head>
+
+
+<h1> Wichtige CSS Elemente</h1>
+
+
+
+<div class="titelbox">
+<h3> CSS Elemente </h3>
+</div>
+<div class="box">
+<p>In CSS gibt es viele Möglichkeiten wie man HTML Elemente personalisieren kann und so seine Webseite nach eigenen Wünschen gestalten kann. Wir zeigen dir heute wie du das machen kannst und wie du spezifische Elemente veränderst. </p>
+</div>
+<br><br><br>
+
+<div class="titelbox">
+<h3>Wie ist ein CSS Befehl aufgebaut? </h3>
+</div>
+<div class="box">
+<p> 
+Der Aufbau eines CSS Befehls im deutschen wäre:<br>
+Bei <span style="color:red;">welchem Element</span>  nimmt <span style="color:green;">welche Eigenschaft</span> einen <span style="color:blue;">bestimmten Wert</span> an.<br>
+In Code sieht das dann beispielsweisse so aus:<br>
+<span style="color:red;">p</span> { <br>
+<span style="color:green;">color</span>: <span style="color:blue;">blue</span>;<br>
+}<br>
+In diesem Beispiel wird beim Element Paragraphen die Eigenschaft Farbe auf den Wert Blau gesetzt.<br>
+Und so kannst du Css Befehle bilden.<br>
+Das ausgewählte Element heisst korrekt Selektor. <br>
+Die Eigenschaft nennt sich korrekt Deklaration .<br>
+Wenn man die Inline Möglichkeit nutzt fällt der Selektor weg.<br>
+Idee von <a href="https://www.html-seminar.de/cascading_style_sheets_aufbau.htm"> Aufbau von CSS Befehlen - korrekter Syntax (html-seminar.de)</a>
+
+</p>
+</div>
+<br>
+<br>
+<br>
+<div class="titelbox">
+<h3>Farben mit CSS ändern- Color und Background-Color</h3>
+</div>
+<div class="box">
+<p>Mit  der Deklaration Color kannst du die Farbe von einem Element ändern. Indem du die Farbe die du willst auf Englisch eingibst oder bei spezielleren Farben den Hex Code davon nutzt. 
+<br> </p>
+<textarea id= "codeBox1" readonly >
+&lt;p style= "color: red;" &gt; Beliebiger Text &lt;/&gt;
+
+</textarea>
+
+<br>
+<button onclick="copyCode('codeBox1')">📋</button> <br>
+<p>
+Background-Color funktioniert genau gleich einfach dass man den Hintergrund Farbe eines Elements oder der ganzen Seite ändert. Um die Hintergrund Farbe der Seite zu ändern muss die Backgroundcolor des Selektor Body geändert werden
+<br>
+
+<textarea id= "codeBox2" readonly >
+&lt;p style= "Background-Color: red;" &gt; Beliebiger Text &lt;/&gt;
+
+</textarea>
+
+<br>
+<button onclick="copyCode('codeBox2')">📋</button> <br>
+<br>
+Wenn man eine kompliziertere Farbe braucht kann man den Hex Code der Wunschfarbe über Webseiten herausfinden, eine Möglichkeit ist diese: <br>
+<a href="https://www.w3schools.com/colors/colors_picker.asp"> W3School-Color_Picker. </a>
+ </p>
+ 
+</div>
+<br> <br>
+
+<div class="titelbox">
+<h3> Text Gestalten- font-family,font-size. </h3>
+</div>
+
+
+<div class="box">
+<p> Mit Font kannst du die Eigenschaften eines Textes ändern zum Beispiel den Style oder die Textgrösse verändern. <br>
+Mit Font-Family änderst du den Style des Textes. Du kannst mehrere Styles angeben weil gewisse Browser gewisse Text Styles nicht unterstützen, gib dafür die Text Styles dazu mit absteigender Priorität mit Komas getrennt ein.<br>
+Zum finden von passenden Font-Familys können wir dir diese Seite empfehlen: <br>
+<a href="https://www.tutorialbrain.com/css_tutorial/css_font_family_list/">CSS Font Family List — TutorialBrain</a>
+</p>
+</div>
+<br><br><br>
+
+
+<div class="titelbox">
+<h3>Höhe und Breite eines Elementes ändern- Width und Height</h3>
+</div>
+
+
+<div class="box">
+<p> Width heisst breite und Height höhe mit diesen Attributen lässt sich die Höhe und Breite eines Objekts verändern. Es wird in Pixel angegeben und kann genutzt werden um die Höhe und Breite von fast jeden Element zu verändern.
+Das ist vorallem nützlich um die Masse eines Knopfes oder ähnlichem zu verändern.
+<br>
+
+Hier ein Beispiel mit verschieden grossen Knöpfen:
+</p>
+<textarea style="height: 100px;" id= "codeBox3" readonly >
+
+<button style="height: 400px;width:400px" > Grosser Knopf </button>
+
+<button style="height: 100px;width:100px"> Kleiner Knopf </button>
+
+</textarea>
+<br>
+<button onclick="copyCode('codeBox3')">📋</button>
+</div>
+<br><br><br>
+
+<div class="titelbox">
+<h3>Rahmen von Objekten bearbeiten- Border-color, Border-radius, Border-style</h3>
+</div>
+
+
+<div class="box">
+<p>Jedes Element hat einen Rahmen um diesen zu bearbeiten braucht man die Border Deklarationen. Es  gibt die Eigenschaften Border-Color für die Farbe, Border-radius für die Abrundung in Pixeln oder Prozent und Border-style um den Style eines Rahmens zu ändern (Möglichkeiten sind double, dotted, solid und dashed)<br>
+Hier ein Beispiel wie es sich nutzen lässt.
+<br>
+<textarea style="height:100px;" id= "codeBox4" readonly >
+<div style="border-color:blue; border-style:dotted; border-radius:20%;background-color:grey;">
+  <p>Hier kommt der Text hin</p>
+</div>
+
+</textarea>
+<br>
+<button onclick="copyCode('codeBox4')">📋</button>
+ </p>
+</div>
+<br><br> <br>
+
+
+
+<div class="titelbox">
+<h3>Andere Selektoren- Class und Id</h3>
+</div>
+
+
+<div class="box">
+<p>Mit der Klasse eines Elements kannst du spezifisch nur eine gewisse Gruppe an Elementen bearbeiten und mit der ID nur ein einzelnes Element gestalten. Das ist vor allem hilfreich wenn du zum Beispiel verschiedene 
+Arten an Knöpfen auf deiner Webseite haben willst aber sie sollen nicht gleich aussehen oder wenn jedes Element verschiedene Eigenschaften haben soll. <br>
+In CSS nutzt du die Klasse oder die ID als Selektor. Bei der ID schreibt man einen Hashtag vor die eigentliche ID und bei der Klasse ein <br>
+Und in HTML schreibst du die Klasse oder die ID einfach zu den Attributen.<br>
+
+<br>
+Hier ein Beispiel wie man Klassen nutzt: <br><br>
+HTML:<br>
+<textarea id= "codeBox" readonly >
+<button class= "button1" > Button 1 </button>
+</textarea>
+<br>
+<button onclick="copyCode('codeBox')">📋</button>
+<br>
+
+CSS:<br>
+<textarea id= "codeBox" readonly >
+.button1 {
+Background-color: blue;
+}
+
+</textarea>
+<br>
+<button onclick="copyCode('codeBox')">📋</button>
+<br>
+<br>
+Hier ein Beispiel wie man mit der ID arbeitet:<br><br>
+HTML:<br>
+<textarea id= "codeBox" readonly >
+<button id= "button1" > Button 1 </button>
+</textarea>
+<br>
+<button onclick="copyCode('codeBox')">📋</button>
+<br>
+CSS:<br>
+<textarea #button1 {
+Background-color: blue;
+
+</textarea>
+<br>
+<button onclick="copyCode('codeBox')">📋</button>
+
+ </p>
+</div>
+<br><br> <br>
+
+<p> 
+von Elia gemacht
+</p>
+
+
+
+
+
+
+
+
+<script>
+
+function copyCode(elementId) {
+
+  const codeBox = document.getElementById(elementId);
+  codeBox.select();
+
+  
+  document.execCommand('copy');
+
+  
+  alert("Code wurde in die Zwischenablage kopiert!");
+}
+</script>
+
+
+
+</body>
+</html>
